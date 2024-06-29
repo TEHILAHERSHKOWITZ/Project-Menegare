@@ -1,0 +1,29 @@
+
+.card.custom-card {
+    width: 90%; // 90% מרוחב התצוגה
+    max-width: 100%; // לוודא שהרוחב לא יחרוג מרוחב התצוגה
+    margin: 20px auto; // למרכז את הכרטיס ולהוסיף מרווח אנכי
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // להוסיף צל למראה נעים יותר
+    border-radius: 10px; // פינות מעוגלות
+    overflow: hidden; // לוודא שהתוכן מתאים לפינות המעוגלות
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card.custom-card .card-body {
+    flex: 1;
+  }
+  
+  .card.custom-card .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #e0e0e0;
+    background-color: #f8f9fa;
+  }
+  
+  .card.custom-card .card-buttons .btn {
+    margin: 0 5px;
+  }
+  

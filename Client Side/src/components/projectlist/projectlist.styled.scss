@@ -1,0 +1,16 @@
+.projectList {
+    display: flex;
+    flex-direction: column;
+    align-items: center; // Center align the project items
+    gap: 20px; // Add some space between the project items
+    width: 100%;
+
+    
+    .add-project-btn {
+      width: 100%; // כפתור בגודל מלא
+      margin: 0 auto;
+    }
+    
+  }
+  
+  
